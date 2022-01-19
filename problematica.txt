@@ -1,0 +1,31 @@
+1. Inicio
+2. Funcion principal
+3. 	k, i [0-n] <-- 1920
+4.	j, i [0-n] <-- 0
+	k1, i [0-n]
+5.	k1 <-- k
+	residuo, d [0-n]
+	
+6.	Mientras (k1 > 0) haga //1920>0=v//192>0=v//19>0=v//1>0=v//0>0=f//
+7. 	   residuo = obtenerResiduo (k1)
+8.	   Escribir residuo + " * 10 elevado a la potencia" + j //0*10 elevado a la potencia 0//2*10 elevado a la potencia 1//9*10 elevado a la potencia 2//1*10 elevado a la potencia 3//
+9.	   j = j + 1 //1//2//3//4//
+10. 	   k1 = obtenerCociente (k1)	
+11.	Fin mientras
+12. Fin funcion principal 
+
+13. Funcion obtenerResiduo (a, i) : i
+14.	residuo, d [0-n]
+15.	residuo = (a MOD 1O) //1920MOD10=192//192MOD10=2//19MOD10=9//1MOD10=1//
+16.	return residuo 
+17. Fin funcion obtenerResiduo
+
+
+13. Funcion obtenerCociente (a, i) : i
+14.	a = (a/10) //1920/10=192//192/10=19//19/10=1//1/10=0//
+15.	return a 
+16. Fin funcion obtenerCociente
+
+	
+
+	
